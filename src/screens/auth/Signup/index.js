@@ -5,6 +5,7 @@ import Input from "../../../components/Input";
 import Checkbox from "../../../components/Checkbox";
 import { styles } from "./styles";
 import Separator from "../../../components/Separator";
+import GoogleLogin from "../../../components/GoogleLogin";
 
 const Singup = () => {
     const [checked, setChecked] = useState(false)
@@ -15,13 +16,14 @@ const Singup = () => {
             <Input label="Name" placeholder="John Doe"/>
             <Input label="Email" placeholder="example@gmail.com"/>
             <Input isPassword label="Password" placeholder="******"/>
-            <View style={styles.agreerow}>
+            <View style={styles.agreeRow}>
                 <Checkbox checked={checked} oncheck={setChecked}/>
                 <Text style={styles.agreeText}>I agree with<Text style={styles.agreeTextBold}> Terms</Text> & <Text style={styles.agreeTextBold}>Privacy</Text></Text>
             </View>
             <button style={styles.button} title="Sing In" />
             <Separator text="Or sing up with" />
+            <GoogleLogin />
         </View>
     )
 }
-export default Singup
+export default React.memo(Singup)
