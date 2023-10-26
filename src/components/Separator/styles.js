@@ -1,21 +1,21 @@
 import { StyleSheet } from "react-native";
 
-import { Colors } from "../../utils/colors"
+import { colors } from "../../utils/colors";
 
 export const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginVertical: 20,
+        marginVertical: 20
     },
     text: {
         color: colors.blue,
-        fontWeight: '500',
+        fontWeight: '500'
     },
     line: {
-        backgroundColor: colors.lightGray,
+        backgroundColor: colors.lightGrey,
         height: 1,
         flex: 1,
-        marginVertical: 8,
+        marginVertical: 8
     }
 })

@@ -1,35 +1,21 @@
-import {StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    container: {
-        padding: 24,
-        flexDirection: 'column',
-        justifycontent: 'center',
-        alignItems: 'center',
-        height: '100%',
-        borderWidth: 1
-    },
     image: {
-        width: '100%',
-        height: 200
-    },
-    titleContainer: {
-        marginVertical: 54
+        width: "100%",
+        height: 200,
+        marginTop:144
     },
     title: {
         fontSize: 40,
-        fontWeight: "bold",
-        textAlign: 'center'
+        fontWeight:"bold",
+        textAlign: "center"
     },
     innerTitle: {
         color: '#FCA34D',
         textDecorationLine: 'underline'
     },
-    footerText: {
-        color: '#4F63AC',
-        textAlign: 'center',
-        fontSize: 16,
-        fontWeight: 'bold',
-        marginTop: 30
+    container: {
+        padding: 36
     }
 })

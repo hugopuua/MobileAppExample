@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-import { styles } from './styles'
+import { styles } from "./styles";
 
 const Separator = ({text}) => {
     return(
@@ -12,4 +12,5 @@ const Separator = ({text}) => {
         </View>
     )
 }
+
 export default Separator

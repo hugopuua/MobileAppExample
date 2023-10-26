@@ -1,10 +1,11 @@
-export const colors = {
+export const colors ={
     blue: '#4F63AC',
-    white: '#FFFFFF',
+    white: '#FFF',
     orange: '#FCA34D',
-    black:'#000000',
-    grey: '#8D9BB5',
-    lightGray: '#DADADA',
-    darkGray: '#6E6E6E',
-    
+    black: '#000',
+    grey: '#8D9BB%',
+    lightGrey: '#DADADA',
+    darkGray: '#3F4A59',
+    textGray: '#606060',
+    bordercolor: '#707070'
 }
