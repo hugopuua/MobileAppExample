@@ -1,0 +1,11 @@
+{
+  "name": "Mobiilirakendused",
+  "displayName": "Mobiilirakendused",
+  "expo": {
+    "googleServiceFile": "./google-service.json"
+  },
+  "ios": {
+    "googleServiceFile": "./google-service.plist"
+  },
+  "plugins": ["@react-native-google-signin/google-signin"]
+}
